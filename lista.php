@@ -35,10 +35,10 @@ if ($usuario->msgErro == "") {
             <div class="usuarios-quadrado">
                 <?php foreach ($usuarios as $usuario): ?>
                     <div class="usuarios-quadrado2">
-                        <p><strong>ID:</strong> <?php echo $usuario['id_usuario']; ?></p>
-                        <p><strong>Nome:</strong> <?php echo $usuario['nome']; ?></p>
-                        <p><strong>Telefone:</strong> <?php echo $usuario['telefone']; ?></p>
-                        <p><strong>Email:</strong> <?php echo $usuario['email']; ?></p>
+                        <p><b>ID:</b> <?php echo $usuario['id_usuario']; ?></p>
+                        <p><b>Nome:</b> <?php echo $usuario['nome']; ?></p>
+                        <p><b>Telefone:</b> <?php echo $usuario['telefone']; ?></p>
+                        <p><b>Email:</b> <?php echo $usuario['email']; ?></p>
                     </div>
                         <!--<div class="editar">editar
 
