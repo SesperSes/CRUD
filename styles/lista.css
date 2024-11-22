@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.fundo-lista{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+}
+
+.login-php{
+    display: flex;
+    margin-bottom: 20px;
+    color: #606569;
+    text-decoration: none;
+}
+.h2{
+    text-align: center;
+    color: #000000;
+}
+
+.usuarios-quadrado{
+    display: flex;
+    gap: 20px;
+}
+
+.usuarios-quadrado2{
+    background-color: #dddddd;
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.usuarios-quadrado2 p {
+    margin: 10px 0;
+    font-size: 14px;
+}
