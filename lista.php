@@ -29,7 +29,7 @@ if ($usuario->msgErro == "") {
 </head>
 <body>
     <div class="fundo-lista">
-        <a href="login.php">VOLTAR</a>
+        <a class="link-voltar" href="login.php">VOLTAR</a>
         <h2>Usuários Cadastrados</h2>
         <?php if ($usuarios): ?>
             <div class="usuarios-quadrado">
@@ -40,6 +40,12 @@ if ($usuario->msgErro == "") {
                         <p><strong>Telefone:</strong> <?php echo $usuario['telefone']; ?></p>
                         <p><strong>Email:</strong> <?php echo $usuario['email']; ?></p>
                     </div>
+                        <!--<div class="editar">editar
+
+                        </div>
+                        <div class="excluir">excluir
+
+                        </div>-->
                 <?php endforeach; ?>
             </div>
         </div>

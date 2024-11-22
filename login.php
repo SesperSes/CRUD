@@ -42,7 +42,7 @@
                     else
                     {
                         ?>
-                            <div id="msn-sucesso">
+                            <div class ="msg-erro" id="msn-sucesso">
                                 Email e/ou senha estão incorretos.
                             </div>
                         <?php
@@ -51,7 +51,7 @@
                 else
                 {
                     ?> 
-                        <div id="msn-sucesso">
+                        <div class ="msg-erro" id="msn-sucesso">
                             <?php echo "Erro: ".$usuario->msgErro;?>
                         </div>
                     <?php
